@@ -2,8 +2,8 @@
 
 Страница и ресурсы находятся в папке `kontakty/`.
 
-Целевой адрес: https://aamelinopt-maker.github.io/autokursplus.ru/kontakty/
+Адрес после переименования репозитория: https://aamelinopt-maker.github.io/autokursplus/kontakty/
 
-Для этого адреса переименуйте репозиторий `test` в `autokursplus.ru` в Settings → General → Repository name. GitHub Pages должен оставаться включённым. Публикация выполняется автоматически после изменений в main.
+Для этого адреса переименуйте репозиторий `autokursplus.ru` в `autokursplus` в Settings → General → Repository name. GitHub Pages должен оставаться включённым. Публикация выполняется автоматически после изменений в main.
 
 Форма проверяет данные локально и не отправляет заявку. Интерактивная карта требует интернет.
