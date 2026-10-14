@@ -1,0 +1,157 @@
+/* Responsive adjustments for the current homepage and its native controls. */
+html{scroll-padding-top:24px}
+body{min-width:320px}
+.elementor-location-header,.elementor-118,.elementor-location-footer{max-width:100%;min-width:0}
+.ak-mobile-nav[hidden]{display:none!important}
+.ak-nav-toggle,.ak-mobile-nav,.ak-nav-phone{display:none}
+.elementor-109 .elementor-element.elementor-element-c008875{position:relative!important;top:auto!important}
+.elementor-109 .elementor-element-c008875.elementor-sticky__spacer{display:none!important}
+.elementor-109 .elementor-element-c008875 .elementor-widget-html{margin:0!important;padding:0!important}
+.elementor-109 .marquee-container{padding:8px 0!important;min-height:40px!important}
+.elementor-109 .marquee{font-size:16px!important;line-height:24px!important}
+.elementor-118 .e-con,.elementor-118 .elementor-widget{min-width:0}
+.elementor-118 #prices .ak-tariff-card-head h2{font-size:clamp(17px,1.65vw,24px)!important;line-height:1.2!important;overflow-wrap:anywhere}
+.elementor-118 #prices .ak-tariff-card-head>.elementor-widget-heading:first-child{max-height:58px}
+.elementor-118 #prices [role=tabpanel] .elementor-button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;white-space:normal}
+.elementor-118 #prices .elementor-swiper-button{min-height:44px!important;width:32px!important}
+.elementor-118 #prices .elementor-swiper-button:hover{color:#e80000!important}
+.elementor-element-5097485 .elementor-swiper-button{width:32px!important;min-height:44px!important}
+.elementor-element-5097485 .swiper-pagination-bullet{position:relative}
+.elementor-element-5097485 .swiper-pagination-bullet:before{content:"";position:absolute;inset:-10px}
+.elementor-element-5097485 .elementor-element-87f3c3b{touch-action:pan-y}
+.elementor-7894 .elementor-element.elementor-element-01a9677 .swiper-slide{max-width:none!important;min-width:0}
+.elementor-7894 .elementor-element.elementor-element-01a9677{touch-action:pan-y}
+.ak-study__card>a,.ak-study__card>button{min-height:44px}
+.ak-modal__close{width:44px;min-height:44px;display:grid;place-items:center}
+.ak-modal__dialog{overscroll-behavior:contain}
+.ak-modal input,.ak-modal select{font-size:16px!important}
+.ak-branches-picker input{box-sizing:border-box}
+.ak-branches-actions button{min-height:48px}
+.ak-branches-actions a{min-height:44px;display:inline-flex;align-items:center}
+.ak-branches-detail{overflow-wrap:anywhere}
+.ak-study__card,.ak-study__app,.ak-course-timing>div,.ak-steps li,.ak-document-preview{min-width:0}
+.elementor-118 .ak-section-heading h2,.ak-clarity h2,.ak-license-showcase h2{overflow-wrap:anywhere;text-wrap:balance}
+@media(min-width:1280px){
+ .elementor-109 .elementor-element-206bc6c>.e-con-inner{display:grid!important;grid-template-columns:140px minmax(0,1fr) 255px!important;gap:20px!important;max-width:1250px!important;width:calc(100% - 40px)!important;align-items:center}
+ .elementor-109 .elementor-element-2480aae,.elementor-109 .elementor-element-8915989,.elementor-109 .elementor-element-35d1c6a{width:100%!important;padding:0!important;min-width:0}
+ .elementor-109 .elementor-element-cfd60a6{width:100%!important;margin:0!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important}
+ .elementor-109 .elementor-element-cfd60a6>a{min-width:0;padding:8px!important;min-height:48px}
+ .elementor-109 .elementor-image-box-wrapper{min-width:0}
+ .elementor-109 .elementor-element-cfd60a6 .elementor-image-box-img{width:30px!important;flex:0 0 30px!important;margin-right:6px!important}
+ .elementor-109 .elementor-element-3fb9915 .elementor-nav-menu{justify-content:space-between!important;flex-wrap:wrap!important}
+ .elementor-109 .elementor-element-3fb9915 .elementor-item{padding-left:4px!important;padding-right:4px!important;font-size:12px!important}
+}
+@media(max-width:1279px){
+ .elementor-109 .elementor-element-206bc6c{padding:12px 20px!important;position:relative;z-index:20}
+ .elementor-109 .elementor-element-206bc6c>.e-con-inner{display:flex!important;align-items:center!important;gap:16px!important;width:100%!important;max-width:1250px!important}
+ .elementor-109 .elementor-element-2480aae{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:space-between!important;width:100%!important;padding:0!important;gap:16px!important}
+ .elementor-109 .elementor-element-95dae22{width:140px!important;flex:0 0 140px!important}
+ .elementor-109 .elementor-element-8915989,.elementor-109 .elementor-element-35d1c6a,.elementor-109 .elementor-element-375fb7c{display:none!important}
+ body .ak-nav-toggle{display:inline-flex!important;align-items:center;justify-content:center;width:48px!important;height:48px!important;min-height:48px;padding:8px!important;border:0!important;border-radius:0!important;background:transparent!important;color:#393971!important;font-size:28px!important;cursor:pointer;flex:0 0 48px!important}
+ body .ak-nav-toggle span{font-size:28px!important;line-height:1;color:inherit}
+ .ak-nav-phone{margin-left:auto;color:#393971;font-size:16px;font-weight:700;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+ .ak-nav-toggle:focus-visible,.ak-mobile-nav a:focus-visible{outline:2px solid #e80000;outline-offset:3px}
+ .ak-mobile-nav{display:block;padding:8px 20px 20px;background:#fff;box-shadow:0 8px 15px #39397115;max-height:70vh;overflow:auto;overscroll-behavior:contain}
+ .ak-mobile-nav>div{max-width:1250px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 16px}
+ .ak-mobile-nav a{display:flex;align-items:center;min-height:48px;padding:10px;color:#393971;font-size:14px;font-weight:600;text-decoration:none;border-bottom:1px solid #ededf3;overflow-wrap:anywhere}
+ .ak-mobile-nav a:hover{color:#e80000}
+ .elementor-118 .elementor-element-e970d9d{min-height:0!important;padding:48px 24px!important;background-size:450px auto!important;background-position:calc(100% + 75px) center!important}
+ .elementor-118 .elementor-element-e970d9d:before{background-size:55vw auto!important;background-position:calc(100% + 80px) center!important}
+ .elementor-118 .elementor-element-c6c1e49{padding:0!important}
+ .elementor-118 .elementor-element-5960de2 h1{font-size:clamp(34px,4.4vw,54px)!important;line-height:1.15!important;max-width:760px}
+ .elementor-118 .elementor-element-1063d3b{max-width:58%!important}
+ .elementor-118 .elementor-element-1063d3b .elementor-icon-list-text{font-size:18px!important;line-height:1.5!important}
+ .elementor-118 .elementor-element-e244b72{margin-top:28px!important;flex-wrap:wrap!important;gap:16px!important}
+ .elementor-118 .elementor-element-e244b72 .elementor-button{min-height:48px;display:flex;align-items:center;justify-content:center}
+ .elementor-118 .elementor-element-edc7398,.elementor-118 .elementor-element-87d6f0c{display:none!important}
+ .ak-benefits__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .ak-branches-picker,.ak-branches-location{height:640px}
+ .ak-branches-actions{flex-wrap:wrap;gap:8px 16px}
+}
+@media(min-width:768px) and (max-width:1099px){
+ .elementor-118 #prices .ak-tariff-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;width:100%!important}
+ .elementor-118 #prices .ak-tariff-grid>.e-con{width:100%!important;margin:0!important}
+ .elementor-118 .ak-tariff-card-head h2{font-size:21px!important}
+ .ak-license-showcase__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:767px){
+ html{scroll-padding-top:16px}
+ .elementor-109 .marquee-container{min-height:32px!important;padding:4px 0!important}
+ .elementor-109 .marquee{font-size:13px!important;line-height:24px!important}
+ .elementor-109 .elementor-element-206bc6c{padding:10px 16px!important}
+ .elementor-109 .elementor-element-95dae22{width:112px!important;flex-basis:112px!important}
+ .ak-nav-phone{font-size:12px;white-space:nowrap}
+ .ak-mobile-nav{padding:0 16px 16px}
+ .ak-mobile-nav>div{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .elementor-118 .elementor-element-e970d9d{padding:210px 20px 36px!important;background-position:calc(100% + 100px) 100%!important;background-size:270px auto!important}
+ .elementor-118 .elementor-element-e970d9d:before{background-size:min(380px,92vw) auto!important;background-position:center 20px!important}
+ .elementor-118 .elementor-element-5960de2 h1{font-size:clamp(28px,7.5vw,38px)!important;max-width:100%;margin-bottom:18px!important}
+ .elementor-118 .elementor-element-1063d3b{max-width:100%!important}
+ .elementor-118 .elementor-element-1063d3b .elementor-icon-list-text{font-size:15px!important;line-height:1.55!important}
+ .elementor-118 .elementor-element-e244b72{flex-direction:column!important;align-items:stretch!important}
+ .elementor-118 .elementor-element-e244b72>.elementor-widget{width:100%!important}
+ .elementor-118 .elementor-element-e244b72 .elementor-button{width:100%;min-height:48px;font-size:13px!important;white-space:normal}
+ .elementor-118 #prices{padding-left:16px!important;padding-right:16px!important}
+ .elementor-118 #prices .e-n-tabs-heading{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;flex-wrap:wrap!important}
+ .elementor-118 #prices .e-n-tabs-heading .e-n-tab-title{width:100%!important;min-width:0!important;min-height:48px!important;padding:12px 8px!important;white-space:normal!important;flex:auto!important}
+ .elementor-118 #prices .e-n-tab-title-text{font-size:12px!important;line-height:1.4!important}
+ .elementor-118 #prices .e-n-tabs-heading .e-n-tab-title:last-child{grid-column:1/-1}
+ .elementor-118 #prices [role=tabpanel]{padding:0!important;min-width:0}
+ /* Remove the old 360px cap from nested Elementor tariff templates. */
+ .elementor-118 #prices [role=tabpanel] .elementor-widget-template,
+ .elementor-118 #prices [role=tabpanel] .elementor-template,
+ .elementor-118 #prices [role=tabpanel] .elementor-template>.elementor,
+ .elementor-118 #prices [role=tabpanel] .e-con:has(.ak-tariff-grid),
+ .elementor-118 #prices [role=tabpanel] .e-con-inner:has(.ak-tariff-grid){width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important;padding-left:0!important;padding-right:0!important}
+ .elementor-118 #prices .ak-tariff-grid{width:100%!important;max-width:none!important;grid-template-columns:minmax(0,1fr)!important;justify-items:stretch!important}
+ .elementor-118 #prices .ak-tariff-grid>.e-con{width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+ .elementor-118 #prices .ak-tariff-card-head h2{font-size:20px!important;line-height:1.25!important}
+ .elementor-118 #prices .ak-tariff-badge{left:auto!important;right:8px!important;top:8px!important;margin:0!important;transform:none!important;max-width:110px!important}
+ .elementor-118 #prices .ak-tariff-course-price p.ak-price-total{font-size:30px!important}
+ .elementor-118 #prices .ak-extra-price-row{gap:10px!important}
+ .elementor-118 #prices .ak-extra-price-row p{font-size:27px!important}
+ .elementor-118 #prices .ak-extra-old-price p{font-size:16px!important}
+ .elementor-118 #prices .ak-tariff-carousel{padding:0 28px!important}
+ .elementor-118 #prices .elementor-swiper-button{width:28px!important}
+ .elementor-118 #prices .ak-tariff-common-note{padding:0 8px;line-height:1.6}
+ .elementor-118 .ak-section-heading{padding-top:40px!important;padding-bottom:24px!important}
+ .elementor-118 .ak-section-heading h2,.ak-clarity h2,.ak-license-showcase h2,.ak-faq-compact .elementor-element-9e3d569 h2{font-size:clamp(24px,6.8vw,31px)!important;line-height:1.2!important}
+ .ak-study__app{grid-template-columns:1fr;gap:20px}
+ .ak-study__app img{width:80px;height:155px}
+ .ak-study__practice{grid-column:auto;padding-left:16px}
+ .ak-study__card dl{grid-template-rows:auto}
+ .ak-study__card dl>div{min-height:0}
+ .ak-benefits__grid{grid-template-columns:1fr}
+ .ak-branches-picker{height:360px}
+ .ak-branches-location{height:auto}
+ .ak-branches-map{height:260px}
+ .ak-branches-detail{min-height:220px}
+ .ak-modal__dialog{max-height:calc(100dvh - 16px);padding:28px 20px max(24px,env(safe-area-inset-bottom))}
+ .ak-modal h2{font-size:28px!important;line-height:1.2!important}
+ #footer-send-request{max-width:calc(100% - 40px)!important;bottom:max(12px,env(safe-area-inset-bottom))!important;min-height:48px}
+ .elementor-location-footer{padding-bottom:80px!important}
+ .elementor-element-5097485 .elementor-element-87f3c3b .ak-review-page{grid-template-columns:1fr!important;gap:0!important}
+ .elementor-element-5097485 .elementor-element-87f3c3b .elementor-element-7b8911b{padding:0 24px!important}
+ .elementor-7894 .elementor-element.elementor-element-21e809e{padding-left:16px!important;padding-right:16px!important}
+ .elementor-7894 .elementor-element.elementor-element-01a9677{--e-image-carousel-slides-to-show:1}
+ .elementor-7894 .elementor-element.elementor-element-01a9677 .swiper-slide{flex:0 0 100%!important;width:100%!important}
+ .elementor-7894 .elementor-element.elementor-element-01a9677 .elementor-image-carousel-wrapper{width:calc(100% - 56px)!important;margin:0 28px!important}
+ .elementor-7894 .elementor-element.elementor-element-01a9677 .swiper-slide-inner{margin:0!important}
+ .elementor-7894 .elementor-element.elementor-element-01a9677 .swiper-slide-image{width:100%!important;height:auto!important;aspect-ratio:3/2!important;object-fit:cover!important}
+ .elementor-7894 .elementor-element.elementor-element-01a9677 .elementor-swiper-button{width:24px!important;min-height:44px!important;display:flex;align-items:center;justify-content:center}
+ .timer{max-width:100%;gap:12px!important}
+ .time-box span{font-size:clamp(36px,11vw,56px)!important}
+ .time-box div{font-size:12px;margin-top:12px!important}
+}
+@media(max-width:359px){
+ .ak-nav-phone{display:none}
+ .elementor-118 #prices .ak-tariff-extra h2{font-size:18px!important}
+ .elementor-118 #prices .ak-extra-price-row p{font-size:24px!important}
+ .elementor-118 #prices .ak-extra-old-price p{font-size:14px!important}
+ .elementor-118 #prices .ak-tariff-course-price p.ak-price-total{font-size:28px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto!important}
+ .marquee{animation:none!important}
+ .swiper-wrapper,.elementor-swiper-button{transition:none!important}
+}

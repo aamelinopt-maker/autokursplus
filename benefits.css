@@ -1,0 +1,17 @@
+.ak-benefits{width:100%;padding:0 20px 60px;background:#e7e7e7;color:#393971;box-sizing:border-box}
+.ak-benefits__inner{max-width:1250px;margin:0 auto}
+.ak-benefits h2{font:700 36px/1.15 Gotham,Arial,sans-serif;text-transform:uppercase;text-align:center}
+.ak-benefits .ak-benefits__scope{margin:0 0 32px;text-align:center;font-size:15px;line-height:1.5}
+.ak-benefits__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+.ak-benefits__card{display:flex;flex-direction:column;min-width:0;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 22px #39397112}
+.ak-benefits__photo{position:relative;height:200px;overflow:hidden;flex-shrink:0;background:#f4f4f4}
+.ak-benefits__photo img{display:block;width:100%;height:100%;object-fit:cover}
+.ak-benefits__photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#fffffff0 0%,#ffffffc7 32%,#ffffff00 75%)}
+.ak-benefits .ak-benefits__stat{position:absolute;z-index:1;inset:22px 8px auto;margin:0;text-align:center;line-height:1}
+.ak-benefits__stat strong{display:block;color:#e80000;font-size:54px;font-weight:800;letter-spacing:-2px;white-space:nowrap}
+.ak-benefits__stat span{display:block;margin-top:7px;color:#393971;font-size:14px;font-weight:700}
+.ak-benefits .ak-benefits__card h3{display:flex;align-items:center;justify-content:center;min-height:76px;margin:0;padding:14px 16px;background:#393971;color:#fff;text-align:center;font-size:16px;font-weight:700;line-height:1.35;text-transform:uppercase;box-sizing:border-box}
+.ak-benefits .ak-benefits__copy{margin:0;padding:20px;font-size:14px;line-height:1.6;flex:1}
+@media(min-width:768px) and (max-width:1023px){.ak-benefits__grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr}.ak-benefits__photo{height:220px}}
+@media(max-width:767px){.ak-benefits{padding:0 16px 40px}.ak-benefits h2{font-size:31px}.ak-benefits__grid{grid-template-columns:1fr;gap:20px;grid-auto-rows:1fr}.ak-benefits__photo{height:210px}.ak-benefits__stat strong{font-size:54px}.ak-benefits .ak-benefits__card h3{min-height:64px}.ak-benefits .ak-benefits__copy{padding:18px 20px}.ak-benefits .ak-benefits__scope{font-size:14px;margin-bottom:24px}}
+@media(min-width:768px){.elementor-7878 .elementor-element.elementor-element-8911a99{position:relative;top:-35px}}

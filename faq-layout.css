@@ -1,0 +1,28 @@
+.ak-faq-compact{padding-bottom:72px!important;background:#f2f2f2!important}
+.ak-faq-compact .elementor-element-09e2bc7>.e-con-inner{max-width:1250px!important;width:calc(100% - 40px)!important;padding:0!important}
+.ak-faq-compact .elementor-element-ec7169f{width:100%!important;gap:0!important;padding:0!important}
+.ak-faq-compact .elementor-element-9e3d569{position:relative;overflow:visible;padding-left:150px!important;padding-right:150px!important;min-height:150px;display:flex;align-items:center;justify-content:center}
+.ak-faq-compact .elementor-element-9e3d569 h2{font:700 36px/1.15 Gotham,Arial,sans-serif!important;text-align:center!important;text-transform:uppercase}
+.ak-faq-compact .ak-faq-illustration{position:absolute;right:24px;bottom:14px;width:135px!important;height:123px!important;object-fit:contain}
+.ak-faq-compact .elementor-element-b0d959d,.ak-faq-compact .elementor-element-e4fbd85,.ak-faq-compact .elementor-element-e39c913{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;gap:0!important}
+.ak-faq-compact .elementor-element-e4fbd85{display:flex;flex-direction:column}
+.ak-faq-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start;width:100%}
+.ak-faq-column{display:flex;flex-direction:column;gap:18px;min-width:0}
+.ak-faq-compact .ak-faq-column .elementor-toggle-item{margin:0!important;width:100%;border:0!important;border-radius:10px;background:#fff;overflow:hidden;box-shadow:0 4px 22px #39397112}
+.ak-faq-compact .ak-faq-column .elementor-tab-title{display:flex;align-items:center;gap:16px;min-height:96px;box-sizing:border-box;padding:22px 24px!important;line-height:1.4!important;border:0!important}
+.ak-faq-compact .ak-faq-column .elementor-toggle-title{flex:1;order:0;font-size:16px;line-height:1.4}
+.ak-faq-compact .ak-faq-column .elementor-toggle-icon{order:1;float:none!important;flex:0 0 14px;width:14px!important}
+.ak-faq-compact .ak-faq-column .elementor-tab-content{padding:0 24px 24px!important;border:0!important;font-size:14px;line-height:1.65}
+.ak-faq-compact .elementor-element-169d2dd{position:static!important;align-self:flex-end!important;margin:20px 0 0!important;transform:none!important;inset:auto!important}
+@media(max-width:767px){
+  .ak-faq-compact{padding-bottom:48px!important}
+  .ak-faq-compact .elementor-element-09e2bc7>.e-con-inner{width:calc(100% - 32px)!important}
+  .ak-faq-compact .elementor-element-9e3d569{padding-left:0!important;padding-right:0!important;min-height:0}
+  .ak-faq-compact .elementor-element-9e3d569 h2{font-size:31px!important}
+  .ak-faq-compact .ak-faq-illustration{display:none}
+  .ak-faq-columns{grid-template-columns:1fr;gap:16px}
+  .ak-faq-column{gap:16px}
+  .ak-faq-compact .ak-faq-column .elementor-tab-title{padding:20px!important;min-height:76px}
+  .ak-faq-compact .ak-faq-column .elementor-toggle-title{font-size:15px}
+  .ak-faq-compact .ak-faq-column .elementor-tab-content{padding:0 20px 20px!important}
+}

@@ -1,0 +1,137 @@
+/* Alternating surfaces keep adjacent sections visually distinct. */
+#prices,
+.ak-benefits,
+.ak-study,
+.elementor-element-05fad00,
+.elementor-element-5097485{
+  background:#e7e7e7!important;
+}
+
+.elementor-element-91b30a1,
+.ak-moscow-branches,
+.ak-clarity,
+.elementor-element-a6d6396,
+.ak-license-showcase,
+.elementor-element-a352662,
+.elementor-element-a352662 .elementor-element-d9ea4af{
+  background:#fff!important;
+}
+
+.elementor-element-873b7fd,
+.elementor-element-873b7fd .ak-faq-compact{
+  background:#f2f2f2!important;
+}
+
+.elementor-element-98f9c6e,
+.elementor-element-98f9c6e .elementor-element-e7aba2b{
+  background:#e7e7e7!important;
+}
+
+/* The adjacent fleet, reviews and documents sections remain three distinct
+   full-width surfaces after the homepage reordering. */
+.elementor-element-a6d6396,
+.elementor-element-a6d6396>.e-con-inner{background:#fff!important;}
+
+.elementor-element-5097485,
+.elementor-element-5097485>.e-con-inner{background:#e7e7e7!important;}
+
+.elementor-element-5097485{
+  position:relative;
+  isolation:isolate;
+  z-index:0!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  width:100%!important;
+  max-width:none!important;
+  box-sizing:border-box!important;
+  padding:0 20px 40px!important;
+  box-shadow:none!important;
+  clip-path:none!important;
+}
+
+.elementor-element-5097485>.e-con-inner{
+  width:100%!important;
+  max-width:1250px!important;
+  margin:0 auto!important;
+}
+
+.ak-license-showcase,
+.ak-license-showcase__inner{background:#fff!important;}
+
+.elementor-element-5097485 .elementor-swiper-button{
+  display:flex!important;
+  align-items:center;
+  justify-content:center;
+  width:24px!important;
+  height:40px!important;
+  padding:0!important;
+  font-size:24px!important;
+  color:#393971!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  opacity:1!important;
+  cursor:pointer;
+  z-index:3!important;
+  top:var(--ak-review-arrows-top,50%)!important;
+  bottom:auto!important;
+  margin-top:0!important;
+  transform:translateY(-50%)!important;
+  transition:color .2s!important;
+}
+.elementor-element-5097485 .elementor-swiper-button svg{fill:currentColor!important;}
+.elementor-element-5097485 .elementor-swiper-button:hover,
+.elementor-element-5097485 .elementor-swiper-button:focus-visible{
+  color:#e80000!important;
+  background:transparent!important;
+}
+.elementor-element-5097485 .elementor-swiper-button[aria-disabled="true"]{
+  color:#77778f!important;
+  background:transparent!important;
+  cursor:default;
+}
+
+.elementor-element-5097485 .elementor-element-87f3c3b .swiper-pagination{
+  position:static!important;
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  width:100%!important;
+  gap:10px!important;
+  margin:20px 0 0!important;
+  padding:0!important;
+  transform:none!important;
+  line-height:1!important;
+}
+.elementor-element-5097485 .swiper-pagination-bullet{
+  display:block!important;
+  flex:0 0 9px;
+  width:9px!important;
+  height:9px!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:50%!important;
+  background:#b9b9cc!important;
+  opacity:1!important;
+  cursor:pointer;
+}
+.elementor-element-5097485 .swiper-pagination-bullet-active{background:#393971!important;}
+
+/* Match the video-review cards to the neighbouring reviews widget. */
+.elementor-element-5097485 .ak-review-page [data-element_type="container"]:has(> .elementor-widget-video),
+.elementor-element-5097485 .ak-review-page .e-hosted-video,
+.elementor-element-5097485 .ak-review-page video{
+  border-radius:10px!important;
+}
+
+/* This selector matches the original carousel rule so its 15 px corners
+   cannot win by specificity. */
+.elementor-118 .elementor-element-5097485>.e-con-inner>.elementor-element-87f3c3b .ak-review-page [data-element_type="container"]:has(> .elementor-widget-video),
+.elementor-118 .elementor-element-5097485>.e-con-inner>.elementor-element-87f3c3b .ak-review-page .e-hosted-video,
+.elementor-118 .elementor-element-5097485>.e-con-inner>.elementor-element-87f3c3b .ak-review-page video{
+  border-radius:10px!important;
+}

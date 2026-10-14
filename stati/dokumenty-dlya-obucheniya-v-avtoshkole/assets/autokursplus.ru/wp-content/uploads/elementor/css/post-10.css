@@ -1,0 +1,53 @@
+.elementor-kit-10{--e-global-color-primary:#393971;--e-global-color-secondary:#393971;--e-global-color-text:#393971;--e-global-color-accent:#2A2A6D;--e-global-color-0d8b827:#F2F2F2;--e-global-color-686b3bc:#FFFFFF;--e-global-color-dbff397:#0000481A;--e-global-color-fb99833:#00004840;--e-global-color-3c71fe9:#E80000;--e-global-color-9dbc152:#E11C2A;--e-global-color-551a318:#E7E7E7;--e-global-typography-primary-font-family:"Lato";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;color:var( --e-global-color-text );font-family:"Gotham", Sans-serif;font-size:14px;font-weight:400;line-height:1.4em;}.elementor-kit-10 button,.elementor-kit-10 input[type="button"],.elementor-kit-10 input[type="submit"],.elementor-kit-10 .elementor-button{background-color:var( --e-global-color-accent );font-size:14px;font-weight:500;text-transform:uppercase;letter-spacing:0.6px;border-radius:0px 0px 0px 0px;padding:20px 50px 20px 50px;}.elementor-kit-10 e-page-transition{background-color:#F2F2F2;}.elementor-kit-10 h1{color:var( --e-global-color-primary );font-family:"Gotham", Sans-serif;font-size:85px;font-weight:700;line-height:1.2em;}.elementor-kit-10 h2{color:var( --e-global-color-secondary );font-family:"Gotham", Sans-serif;font-size:36px;font-weight:700;}.elementor-kit-10 h3{color:var( --e-global-color-secondary );font-family:"Gotham", Sans-serif;font-size:20px;font-weight:600;text-transform:uppercase;}.elementor-kit-10 h4{color:var( --e-global-color-secondary );font-family:"Gotham", Sans-serif;}.elementor-kit-10 button:hover,.elementor-kit-10 button:focus,.elementor-kit-10 input[type="button"]:hover,.elementor-kit-10 input[type="button"]:focus,.elementor-kit-10 input[type="submit"]:hover,.elementor-kit-10 input[type="submit"]:focus,.elementor-kit-10 .elementor-button:hover,.elementor-kit-10 .elementor-button:focus{box-shadow:0px 20px 25px 0px rgba(0, 0, 72, 0.25);}.elementor-kit-10 img{border-radius:0px 0px 0px 0px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1250px;}.e-con{--container-max-width:1250px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1150px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-10{font-size:14px;}.elementor-kit-10 h2{font-size:22px;line-height:1.4em;}.elementor-kit-10 h3{font-size:16px;line-height:1.4em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.strikethrough-red-bold {
+  display: inline-block !important;
+  position: relative !important;
+  color: inherit !important;
+}
+
+.strikethrough-red-bold::after {
+  content: '' !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 7px;
+  height: 2px !important;
+  background-color: red !important;
+  transform-origin: center !important;
+  pointer-events: none !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2025/03/gotham-light.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('../../2025/03/gotham-book.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../2025/03/gotham-medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2025/03/gotham-bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('../../2025/03/gotham-black.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */

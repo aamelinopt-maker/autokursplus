@@ -1,9 +1,10 @@
-# Контакты автошколы «Автокурс»
+# Демонстрационные страницы «Автокурс»
 
-Страница и ресурсы находятся в папке `kontakty/`.
+Все HTML-страницы опубликованы с noindex, nofollow.
 
-Адрес после переименования репозитория: https://aamelinopt-maker.github.io/autokursplus/kontakty/
+- Главная: https://aamelinopt-maker.github.io/autokursplus/
+- Контакты: https://aamelinopt-maker.github.io/autokursplus/kontakty/
+- Блог: https://aamelinopt-maker.github.io/autokursplus/stati/
+- Статья: https://aamelinopt-maker.github.io/autokursplus/stati/dokumenty-dlya-obucheniya-v-avtoshkole/
 
-Для этого адреса переименуйте репозиторий `autokursplus.ru` в `autokursplus` в Settings → General → Repository name. GitHub Pages должен оставаться включённым. Публикация выполняется автоматически после изменений в main.
-
-Форма проверяет данные локально и не отправляет заявку. Интерактивная карта требует интернет.
+Видеоотзывы загружаются с исходного сайта. Формы в демонстрационных копиях не отправляют заявки. Локальные производственные шаблоны сохраняют исходные настройки индексации.
