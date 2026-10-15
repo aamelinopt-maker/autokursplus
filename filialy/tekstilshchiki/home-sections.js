@@ -1,0 +1,73 @@
+(()=>{
+  'use strict';
+  const visibleCount=()=>innerWidth<768?1:innerWidth<1024?2:4;
+  document.querySelectorAll('[data-home-carousel]').forEach(carousel=>{
+    const track=carousel.querySelector('.ak-home-carousel-track');
+    const slides=[...track.children];
+    const prev=carousel.querySelector('[data-carousel-prev]');
+    const next=carousel.querySelector('[data-carousel-next]');
+    const viewport=carousel.querySelector('.ak-home-carousel-viewport');
+    viewport.tabIndex=0;
+    viewport.setAttribute('role','region');
+    viewport.setAttribute('aria-roledescription','карусель');
+    viewport.setAttribute('aria-label',carousel.closest('section').querySelector('h2').textContent.trim());
+    const status=document.createElement('span');
+    status.className='ak-carousel-status';status.setAttribute('aria-live','polite');status.setAttribute('aria-atomic','true');
+    carousel.append(status);
+    let index=0;
+    const draw=()=>{
+      const max=Math.max(0,slides.length-visibleCount());
+      index=Math.max(0,Math.min(index,max));
+      const gap=parseFloat(getComputedStyle(track).gap)||0;
+      const width=slides[0]?.getBoundingClientRect().width||0;
+      track.style.transform=`translate3d(${-index*(width+gap)}px,0,0)`;
+      prev.disabled=index===0;
+      next.disabled=index===max;
+      slides.forEach((slide,i)=>{const hidden=i<index||i>=index+visibleCount();slide.inert=hidden;slide.setAttribute('aria-hidden',String(hidden));});
+      status.textContent=`Показаны ${index+1}–${Math.min(slides.length,index+visibleCount())} из ${slides.length}`;
+    };
+    const move=step=>{index+=step;draw();};
+    prev.addEventListener('click',()=>move(-1));
+    next.addEventListener('click',()=>move(1));
+    window.akBindCarouselGestures(viewport,()=>move(-1),()=>move(1));
+    new ResizeObserver(draw).observe(viewport);
+    draw();
+  });
+  const reviews=document.querySelector('[data-review-pages]');
+  if(!reviews)return;
+  const videos=[...reviews.querySelectorAll('.ak-home-review-video')];
+  const prev=reviews.querySelector('[data-carousel-prev]');
+  const next=reviews.querySelector('[data-carousel-next]');
+  const dots=reviews.querySelector('.ak-home-review-dots');
+  const viewport=reviews.querySelector('.ak-home-review-videos');
+  viewport.tabIndex=0;viewport.setAttribute('role','region');viewport.setAttribute('aria-label','Видеоотзывы учеников');
+  const status=document.createElement('span');
+  status.className='ak-carousel-status';status.setAttribute('aria-live','polite');status.setAttribute('aria-atomic','true');reviews.append(status);
+  let page=0;
+  const draw=()=>{
+    const per=visibleCount();
+    const pages=Math.ceil(videos.length/per);
+    page=Math.max(0,Math.min(page,pages-1));
+    videos.forEach((card,i)=>{
+      const visible=i>=page*per&&i<(page+1)*per;
+      card.hidden=!visible;
+      if(!visible)card.querySelector('video').pause();
+    });
+    prev.disabled=page===0;
+    next.disabled=page===pages-1;
+    if(dots.children.length!==pages)dots.replaceChildren(...Array.from({length:pages},(_,i)=>{
+      const button=document.createElement('button');
+      button.type='button';
+      button.setAttribute('aria-label',`Видеоотзывы, страница ${i+1}`);
+      button.addEventListener('click',()=>{page=i;draw();});
+      return button;
+    }));
+    [...dots.children].forEach((button,i)=>button.setAttribute('aria-current',String(i===page)));
+    status.textContent=`Страница ${page+1} из ${pages}`;
+  };
+  prev.addEventListener('click',()=>{page--;draw();});
+  next.addEventListener('click',()=>{page++;draw();});
+  window.akBindCarouselGestures(viewport,()=>{page--;draw();},()=>{page++;draw();});
+  addEventListener('resize',draw,{passive:true});
+  draw();
+})();
